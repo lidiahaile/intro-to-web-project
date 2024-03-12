@@ -99,6 +99,7 @@ a:visited{
     text-align: center;
     border-radius: 10px;
     color: $color-white;
+    height: 10vh;
     }
 
 
@@ -163,6 +164,28 @@ a:visited{
     }
    
    
+}
+
+.footer{
+    height: 20vh;
+    padding: 0 40px;
+    background-color: $color-secondary;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+    .contacts{
+        height: 5vh;
+
+    }
+    .terms{
+        height: 5vh;
+    }
+
+    .privacy{
+        height: 5vh;
+    }
+
 }
 
 
