@@ -1,13 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Madimi+One&display=swap');
 
-$font-body: "Madimi One", "sans-serif";
-$font-display: "Anton", "helvetica";
+$font-heading: "Madimi One", "sans-serif";
+$font-nav: "Anton", "helvetica";
+$font-body: "Roboto";
 
 $color-primary: #2c4052;
 $color-primary-light: #72bbff;
 $color-secondary: #ebdec1;
 $color-black: #333333;
 $color-white: #fafafa;
+
+*{
+    margin: 0;
+    padding: 0 ;
+    box-sizing:border-box;
+    font-family: $font-body;
+    color: $color-black;
+    align-items: center;
+    
+}
+
+a:link,
+a:visited{
+    text-decoration: none;
+}
+.navigation{
+    height: 10vh;
+    padding: 0 40px;
+    background-color: $color-white;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+    color: $color-primary;
+    font-size: 50px;
+    font-family: $font-nav;
+
+}
+
+.button{
+    display: block;
+    width: 100px;
+    background-color: $color-white;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 10px;
+    color: $color-primary;
+    border: 2px solid;
+    border-color: $color-primary;
+}
 
 
 
