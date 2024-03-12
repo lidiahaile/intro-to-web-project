@@ -38,20 +38,20 @@ a:visited{
     color: $color-primary;
     font-size: 50px;
     font-family: $font-nav;
+
     
 
 }
 
 .button{
-    display: block;
-    width: 100px;
+  display: block;
     padding: 10px 20px;
     text-align: center;
     border-radius: 10px;
     color: $color-white;
     border: 2px solid;
     border-color: $color-primary;
-    align-items: right;
+    
 
 }
 
@@ -166,6 +166,13 @@ a:visited{
     }
 
 }
+
+@media screen and (max-width: 768px){
+    *{  
+          width:100%;
+
+        }
+    }
 
 
 
