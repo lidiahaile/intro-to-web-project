@@ -78,7 +78,6 @@ a:visited {
 
 .main {
   height: 80vh;
-  display: flex;
 }
 .main .heading {
   height: 10vh;
