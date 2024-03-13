@@ -6,7 +6,7 @@ $font-body: "Roboto";
 
 $color-primary: #2c4052;
 $color-primary-light: #72bbff;
-$color-secondary: #ebdec1;
+$color-secondary: #fdedca;
 $color-black: #333333;
 $color-white: #fafafa;
 
@@ -16,7 +16,7 @@ $color-white: #fafafa;
     box-sizing:border-box;
     font-family: $font-body;
     color: $color-black;
-    align-items: center;
+   align-items: center;
     
 }
 
@@ -25,45 +25,40 @@ a:visited{
     text-decoration: none;
 }
 .navigation{
-    height: 10vh;
-    width: auto;
-    padding: 0 40px;
-    background-color: $color-white;
-    display: flex;
-    justify-content: space-between;
+ 
 
-}
 
 .logo{
     color: $color-primary;
     font-size: 50px;
     font-family: $font-nav;
 
-    
-
 }
 
 .button{
-  display: block;
-    padding: 10px 20px;
-    text-align: center;
+    display: block;
+  text-align: center;
+  width: 10vh;
+   padding: 10px 20px;
     border-radius: 10px;
     color: $color-white;
     border: 2px solid;
     border-color: $color-primary;
-    
+    float: right;
 
 }
-
+}
 .header{
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     
     .intro{
         text-align: center;
 
         .heading{
+            height: 30vh;
             color:$color-primary-light;
             font-size: 50px;
             font-family: $font-heading;
@@ -71,6 +66,7 @@ a:visited{
         }
 
         .sub-heading{
+            height: 10vh;
             font-family: $font-body;
             color: $color-primary;
             font-size: 30px;
@@ -79,6 +75,7 @@ a:visited{
         }
 
         .sub-heading-2{
+            height: 10vh;
             font-size: 20px;
             color: $color-primary-light;
             font-family: $font-body;
@@ -96,13 +93,13 @@ a:visited{
     .button{
         margin: 0 auto;
         display: block;
-    width: 100px;
+    width: 150px;
     background-color: $color-primary;
     padding: 10px 20px;
     text-align: center;
     border-radius: 10px;
     color: $color-white;
-    height: 10vh;
+    height: 40px;
     }
 
 
@@ -110,16 +107,19 @@ a:visited{
 
 .main{
     height: 80vh;
+    display: flex;
    
     .heading{
+        height: 10vh;
         font-family: $font-body;
         color:$color-primary;
         font-size: 20px;
         text-align: center;
     }
     .card{
+
         width: auto;
-        height: 10vh;
+        height: 15vh;
         text-align: left;
         padding:20px;
         background-color:$color-white;
@@ -143,10 +143,9 @@ a:visited{
 
     }
    
-   
 
 .footer{
-    height: 20vh;
+    height: 15vh;
     padding: 0 40px;
     background-color: $color-secondary;
     justify-content: space-between;
@@ -168,12 +167,11 @@ a:visited{
 }
 
 @media screen and (max-width: 768px){
-    *{  
-          width:100%;
-
-        }
+    * {
+        width: 100%;
+    
     }
-
+}
 
 
 

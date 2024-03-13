@@ -13,51 +13,47 @@ a:visited {
   text-decoration: none;
 }
 
-.navigation {
-  height: 10vh;
-  width: auto;
-  padding: 0 40px;
-  background-color: #fafafa;
-  display: flex;
-  justify-content: space-between;
-}
-
-.logo {
+.navigation .logo {
   color: #2c4052;
   font-size: 50px;
   font-family: "Anton", "helvetica";
 }
-
-.button {
+.navigation .button {
   display: block;
-  padding: 10px 20px;
   text-align: center;
+  width: 10vh;
+  padding: 10px 20px;
   border-radius: 10px;
   color: #fafafa;
   border: 2px solid;
   border-color: #2c4052;
+  float: right;
 }
 
 .header {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .header .intro {
   text-align: center;
 }
 .header .intro .heading {
+  height: 30vh;
   color: #72bbff;
   font-size: 50px;
   font-family: "Madimi One", "sans-serif";
 }
 .header .intro .sub-heading {
+  height: 10vh;
   font-family: "Roboto";
   color: #2c4052;
   font-size: 30px;
   height: 10vh;
 }
 .header .intro .sub-heading-2 {
+  height: 10vh;
   font-size: 20px;
   color: #72bbff;
   font-family: "Roboto";
@@ -71,19 +67,21 @@ a:visited {
 .header .button {
   margin: 0 auto;
   display: block;
-  width: 100px;
+  width: 150px;
   background-color: #2c4052;
   padding: 10px 20px;
   text-align: center;
   border-radius: 10px;
   color: #fafafa;
-  height: 10vh;
+  height: 40px;
 }
 
 .main {
   height: 80vh;
+  display: flex;
 }
 .main .heading {
+  height: 10vh;
   font-family: "Roboto";
   color: #2c4052;
   font-size: 20px;
@@ -91,7 +89,7 @@ a:visited {
 }
 .main .card {
   width: auto;
-  height: 10vh;
+  height: 15vh;
   text-align: left;
   padding: 20px;
   background-color: #fafafa;
@@ -113,9 +111,9 @@ a:visited {
 }
 
 .footer {
-  height: 20vh;
+  height: 15vh;
   padding: 0 40px;
-  background-color: #ebdec1;
+  background-color: #fdedca;
   justify-content: space-between;
   text-align: center;
   align-items: center;
