@@ -26,15 +26,11 @@ a:visited{
     text-decoration: none;
 }
 .navigation{
-    
- 
-
-
+   
 .logo{
     color: $color-primary;
-    font-size: 50px;
+    font-size: 100px;
     font-family: $font-nav;
-
 }
 
 .button{
@@ -48,23 +44,24 @@ a:visited{
     border-color: $color-primary;
     align-items: flex-end;
     float: right;
-
 }
+}
+.body{
+    flex-wrap: wrap;
+    height: 100vh;
 }
 .header{
-    height: 80vh;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
    
-    
     .intro{
         text-align: center;
         
-
         .heading{
-            height: 30vh;
+            height: 10vh;
             color:$color-primary-light;
             font-size: 50px;
             font-family: $font-heading;
@@ -112,10 +109,10 @@ a:visited{
 }
 
 .main{
-    height: 80vh;
+    height: 100vh;
        
     .heading{
-        height: 10vh;
+       
         font-family: $font-body;
         color:$color-primary;
         font-size: 20px;
