@@ -6,6 +6,7 @@
   font-family: "Roboto";
   color: #333333;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 a:link,
@@ -27,12 +28,14 @@ a:visited {
   color: #fafafa;
   border: 2px solid;
   border-color: #2c4052;
+  align-items: flex-end;
   float: right;
 }
 
 .header {
   height: 80vh;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
