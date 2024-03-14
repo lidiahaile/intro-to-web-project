@@ -29,6 +29,7 @@ body{
     
 
  .navigation{ 
+    width: 100vh;
  .logo{
     
     color: $color-primary;
@@ -56,7 +57,7 @@ body{
 
 
 .header{
-   
+   width: 100vh;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -120,7 +121,7 @@ body{
 }
 
 .main{
-    height: 100vh;
+    height: 1400px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -139,16 +140,15 @@ body{
     
     .card{
         width: 100vh;
-        height: 10vh;
+        height: 30vh;
         padding:20px;
         background-color:$color-white;
         color: $color-black;
         border: 2px solid;
         border-color: black;
       
+      }
      
-    }
-
     
 
     .button{
@@ -162,10 +162,11 @@ body{
     color: $color-white;
 
     }
+
+
 }
-
-
 .footer{
+    width: 100vh;
     height: 15vh;
     padding: 0 40px;
     background-color: $color-secondary;
@@ -184,6 +185,7 @@ body{
         height: 5vh;
     }
 }
+
 
 
 
