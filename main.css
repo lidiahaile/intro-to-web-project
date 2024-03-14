@@ -2,11 +2,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: "Roboto";
-  color: #333333;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 a:link,
@@ -14,46 +10,45 @@ a:visited {
   text-decoration: none;
 }
 
+body {
+  align-items: center;
+  text-align: center;
+}
+
 .navigation .logo {
   color: #2c4052;
-  font-size: 50px;
+  font-size: 100px;
   font-family: "Anton", "helvetica";
 }
 .navigation .button {
   display: block;
   text-align: center;
-  width: 10vh;
+  float: right;
+  width: 30px;
+  height: 10px;
+  font-style: #2c4052;
   padding: 10px 20px;
   border-radius: 10px;
-  color: #fafafa;
+  color: #2c4052;
   border: 2px solid;
   border-color: #2c4052;
-  align-items: flex-end;
-  float: right;
 }
 
 .header {
-  height: 80vh;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.header .intro {
-  text-align: center;
-}
 .header .intro .heading {
-  height: 30vh;
   color: #72bbff;
   font-size: 50px;
   font-family: "Madimi One", "sans-serif";
 }
 .header .intro .sub-heading {
-  height: 10vh;
   font-family: "Roboto";
   color: #2c4052;
   font-size: 30px;
-  height: 10vh;
 }
 .header .intro .sub-heading-2 {
   height: 10vh;
@@ -65,10 +60,9 @@ a:visited {
   font-size: 15px;
   color: #333333;
   font-family: "Roboto";
-  height: 20vh;
 }
-.header .button {
-  margin: 0 auto;
+.header .intro .button {
+  margin: 10px auto;
   display: block;
   width: 150px;
   background-color: #2c4052;
@@ -76,32 +70,32 @@ a:visited {
   text-align: center;
   border-radius: 10px;
   color: #fafafa;
-  height: 40px;
 }
 
 .main {
-  height: 80vh;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .main .heading {
-  height: 10vh;
   font-family: "Roboto";
   color: #2c4052;
   font-size: 20px;
   text-align: center;
 }
 .main .card {
-  width: auto;
-  height: 15vh;
-  text-align: left;
+  width: 100vh;
+  height: 10vh;
   padding: 20px;
   background-color: #fafafa;
   color: #333333;
+  border: 2px solid;
+  border-color: black;
 }
-.main .p {
-  text-align: right;
-}
-
-.button {
+.main .button {
   margin: 0 auto;
   display: block;
   width: 100px;
@@ -116,7 +110,6 @@ a:visited {
   height: 15vh;
   padding: 0 40px;
   background-color: #fdedca;
-  justify-content: space-between;
   text-align: center;
   align-items: center;
 }
@@ -128,10 +121,4 @@ a:visited {
 }
 .footer .privacy {
   height: 5vh;
-}
-
-@media screen and (max-width: 768px) {
-  * {
-    width: 100%;
-  }
 }/*# sourceMappingURL=main.css.map */
