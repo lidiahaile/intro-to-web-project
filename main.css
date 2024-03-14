@@ -18,7 +18,7 @@ body {
 .navigation {
   width: 100vh;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .navigation .logo {
   color: #2c4052;
