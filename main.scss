@@ -30,6 +30,10 @@ body{
 
  .navigation{ 
     width: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+
+    
  .logo{
     
     color: $color-primary;
@@ -52,22 +56,25 @@ body{
     border-color: $color-primary;
     
  }
- }
+}
+ 
 
 
 
 .header{
+    
    width: 100vh;
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:space-around;
     align-items: center;
    
+
     
-    
-   
     .intro{
-   
+        
+        
+       
         .heading{
          
             color:$color-primary-light;
@@ -148,8 +155,8 @@ body{
         padding: 20px;
         background-color:$color-white;
         color: $color-black;
-        border: 2px solid;
-        border-color: black;
+        
+       
 
       }
 

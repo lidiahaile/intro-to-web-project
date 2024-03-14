@@ -17,6 +17,8 @@ body {
 
 .navigation {
   width: 100vh;
+  display: flex;
+  justify-content: space-evenly;
 }
 .navigation .logo {
   color: #2c4052;
@@ -41,7 +43,7 @@ body {
   width: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .header .intro .heading {
@@ -100,8 +102,6 @@ body {
   padding: 20px;
   background-color: #fafafa;
   color: #333333;
-  border: 2px solid;
-  border-color: black;
 }
 .main .card img {
   height: 250px;
