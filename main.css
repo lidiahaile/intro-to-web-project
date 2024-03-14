@@ -77,6 +77,7 @@ body {
 }
 
 .main {
+  width: 100vh;
   height: 1400px;
   display: flex;
   flex-direction: column;
@@ -91,6 +92,9 @@ body {
   text-align: center;
 }
 .main .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100vh;
   height: 30vh;
   padding: 20px;
@@ -98,6 +102,9 @@ body {
   color: #333333;
   border: 2px solid;
   border-color: black;
+}
+.main .card img {
+  height: 250px;
 }
 .main .button {
   margin: 0 auto;
@@ -113,7 +120,7 @@ body {
 .footer {
   width: 100vh;
   height: 15vh;
-  padding: 0 40px;
+  padding: 20px 40px;
   background-color: #fdedca;
   text-align: center;
   align-items: center;

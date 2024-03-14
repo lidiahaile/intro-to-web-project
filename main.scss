@@ -121,6 +121,7 @@ body{
 }
 
 .main{
+    width: 100vh;
     height: 1400px;
     display: flex;
     flex-direction: column;
@@ -139,14 +140,21 @@ body{
     }
     
     .card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 100vh;
         height: 30vh;
-        padding:20px;
+        padding: 20px;
         background-color:$color-white;
         color: $color-black;
         border: 2px solid;
         border-color: black;
-      
+
+      }
+
+      .card img{
+        height: 250px;
       }
      
     
@@ -168,10 +176,11 @@ body{
 .footer{
     width: 100vh;
     height: 15vh;
-    padding: 0 40px;
+    padding: 20px 40px;
     background-color: $color-secondary;
     text-align: center;
     align-items: center;
+    
 
     .contacts{
         height: 5vh;
