@@ -19,6 +19,7 @@ body {
   width: 100vh;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .navigation .logo {
   color: #2c4052;

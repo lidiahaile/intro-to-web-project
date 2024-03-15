@@ -32,29 +32,27 @@ body{
     width: 100vh;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
     
  .logo{
-    
     color: $color-primary;
     font-size: 100px;
-    font-family: $font-nav; 
-    
- }
+    font-family: $font-nav;  
+     }
 
  .button{ 
     display: block;
- text-align: center;
- float: right;
-  width: 30px;
-  height: 10px;
-  font-style: $color-primary;
-   padding: 10px 20px;
+    text-align: center;
+    float: right;
+    width: 30px;
+    height: 10px;
+    font-style: $color-primary;
+    padding: 10px 20px;
     border-radius: 10px;
     color: $color-primary;
     border: 2px solid;
-    border-color: $color-primary;
-    
+    border-color: $color-primary; 
  }
 }
  
@@ -70,24 +68,17 @@ body{
 
     .intro{
         
-        
-       
         .heading{
          
             color:$color-primary-light;
             font-size: 50px;
             font-family: $font-heading;
-            
-        
         }
 
         .sub-heading{
-            
             font-family: $font-body;
             color: $color-primary;
-            font-size: 30px;
-           
-            
+            font-size: 30px; 
         }
 
         .sub-heading-2{
@@ -95,20 +86,15 @@ body{
             font-size: 20px;
             color: $color-primary-light;
             font-family: $font-body;
-          
-
         }
 
         .description{
             font-size: 15px;
             color: $color-black;
             font-family: $font-body;
-
-           
         }
     
      .button{
-
      margin: 10px auto;
      display: block;
      width: 150px;
@@ -117,8 +103,6 @@ body{
      text-align: center;
      border-radius: 10px;
      color: $color-white;
-     
-   
      }
   }
 
@@ -131,16 +115,13 @@ body{
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    
     align-items: center;
        
     .heading{
-       
         font-family: $font-body;
         color:$color-primary;
         font-size: 20px;
         text-align: center;
-        
     }
     
     .card{
